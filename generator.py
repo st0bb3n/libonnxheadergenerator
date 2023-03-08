@@ -11,7 +11,7 @@ for x in operators:
        nodupe.append(x)
 
 def op_pick_write(n, ops):
-    with open('readme.txt', 'w') as f:
+    with open('default.h', 'w') as f:
       f.write(f"#ifndef __DEFAULT_H__\n")
       f.write(f"#define __DEFAULT_H__\n")
       f.write(f"\n")
