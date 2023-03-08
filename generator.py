@@ -32,4 +32,4 @@ def op_pick_write(n, ops):
       f.write(f"#endif\n")
       f.write(f"#endif")
     
-    op_pick_write(len(nodupe), nodupe)
+op_pick_write(len(nodupe), nodupe)
